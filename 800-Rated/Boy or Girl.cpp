@@ -6,7 +6,7 @@ int main(){
    set<char>s;
    string str;
    cin>>str;
-   for(int i=0;i<str.length();i++){
+   for(size_t i=0;i<str.length();i++){
       s.insert(str[i]);
    }
 
